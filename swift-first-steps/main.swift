@@ -26,3 +26,10 @@ let thingsArray = ["thing1","thing2","thing3","thing4"]
 for i in thingsArray {
     print(i)
 }
+
+//dicionarios
+//tal como no kotlin, ! força o tipo do print
+
+let miniDictionary = [1:"thing1", 2:"thing2"]
+print(miniDictionary[1]!)
+print(miniDictionary[2]!)
