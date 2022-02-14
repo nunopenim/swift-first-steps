@@ -1,6 +1,8 @@
 import Foundation
 
-/* First step
+// First feel of the language
+
+/*
 print("Nunos swift test, write something ")
 var lineFromConsole = readLine()
 print("You wrote: " + lineFromConsole!)
@@ -37,3 +39,7 @@ for (id, name) in miniDictionary {
     print("ID \(id) is object \(name)")
 } // now that's an interesting way of programming... But I think this was still possible in python
 */
+
+// First feel of loops in the language
+
+
