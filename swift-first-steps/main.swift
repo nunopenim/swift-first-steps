@@ -42,4 +42,8 @@ for (id, name) in miniDictionary {
 
 // First feel of loops in the language
 
+//numeric loops are similar to kotlin
+for i in 0...5 {
+    print(i)
+}
 
