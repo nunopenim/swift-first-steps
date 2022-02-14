@@ -31,5 +31,8 @@ for i in thingsArray {
 //tal como no kotlin, ! força o tipo do print
 
 let miniDictionary = [1:"thing1", 2:"thing2"]
-print(miniDictionary[1]!)
-print(miniDictionary[2]!)
+
+for (id, name) in miniDictionary {
+    print("ID \(id) is object \(name)")
+} // now that's an interesting way of programming... But I think this was still possible in python
+
