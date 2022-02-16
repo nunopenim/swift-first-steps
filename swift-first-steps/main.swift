@@ -38,7 +38,6 @@ let miniDictionary = [1:"thing1", 2:"thing2"]
 for (id, name) in miniDictionary {
     print("ID \(id) is object \(name)")
 } // now that's an interesting way of programming... But I think this was still possible in python
-*/
 
 // First feel of flow control
 
@@ -58,4 +57,13 @@ case let (x,y) where x == y:
 default:
     print("idk man")
 }
+*/
 
+// Functions
+
+func testFunction() -> String {
+    print("This is a print inside the function")
+    return "This is a function return"
+}
+
+print(testFunction())
