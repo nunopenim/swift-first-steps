@@ -67,3 +67,10 @@ func testFunction() -> String {
 }
 
 print(testFunction())
+
+func argTest(argument : String) -> String {
+    print("The argument is: " + argument)
+    return "The argument was: " + argument
+}
+
+print(argTest(argument: "bananas"))
