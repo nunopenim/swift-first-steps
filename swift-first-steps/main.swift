@@ -40,10 +40,22 @@ for (id, name) in miniDictionary {
 } // now that's an interesting way of programming... But I think this was still possible in python
 */
 
-// First feel of loops in the language
+// First feel of flow control
 
 //numeric loops are similar to kotlin
 for i in 0...5 {
     print(i)
+}
+
+// switch case
+let randomTuple = (1,1)
+
+switch randomTuple {
+case let (x,y) where x != y:
+    print("X and Y are different")
+case let (x,y) where x == y:
+    print("X and Y are equal")
+default:
+    print("idk man")
 }
 
